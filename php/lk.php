@@ -58,11 +58,11 @@
 					<span class="cancel-btn btn btn-success" hidden>Отменить</span>
 				</p>
 
-				<p>‘амили¤:
+				<p>Фамилия:
 					<span><?php echo $_SESSION["lastname"]; ?></span>
-					<span class="edit-btn btn btn-danger">–едактировать</span>
-					<span class="save-btn btn btn-warning" hidden data-item="lastname">—охранить</span>
-					<span class="cancel-btn btn btn-success" hidden>ќтменить</span>
+					<span class="edit-btn btn btn-danger">Редактировать</span>
+					<span class="save-btn btn btn-warning" hidden data-item="lastname">Сохранить</span>
+					<span class="cancel-btn btn btn-success" hidden>Отменить</span>
 				</p>
 
 				<p>E-mail: <span><?php echo $_SESSION["email"]; ?></span></p>
