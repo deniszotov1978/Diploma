@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
-<title>Ћичный кабинет</title>
+<title>Личный кабинет</title>
 <style>
 	body {
 		background-color: white;
@@ -51,11 +51,11 @@
 
 				<p>Id: <span><?php echo $_SESSION["id"]; ?></span></p>
 
-				<p>»м¤:
+				<p>Имя:
 					<span><?= $_SESSION["name"]; ?></span>
-					<span class="edit-btn btn btn-danger">–едактировать</span>
-					<span class="save-btn btn btn-warning" hidden data-item="name">—охранить</span>
-					<span class="cancel-btn btn btn-success" hidden>ќтменить</span>
+					<span class="edit-btn btn btn-danger">Редактировать</span>
+					<span class="save-btn btn btn-warning" hidden data-item="name">Сохранить</span>
+					<span class="cancel-btn btn btn-success" hidden>Отменить</span>
 				</p>
 
 				<p>‘амили¤:
